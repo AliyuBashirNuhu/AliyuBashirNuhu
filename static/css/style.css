@@ -1,0 +1,155 @@
+ html{
+    font-family: lato, sans-serif;
+ }
+
+ *,
+ *::after,
+ *::before{
+    box-sizing: inherit;
+ }
+
+ body{
+    box-sizing: border-box;
+    margin: 0;
+ }
+
+ .navbar{
+    background-color: #4b7d62;
+    max-width: 720px;
+    margin: 0px auto 50px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 23px;
+ }
+
+ .navbar__brand{
+    display: flex;
+    align-items: center;
+ }
+
+ .navbar__logo{
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50px;
+
+ }
+
+ .navbar__navigation{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .navbar__navigation-item{
+    margin-left: 50px;
+    color: #d9e5e5;
+ }
+
+ .navbar_link{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+ }
+ .navbar__navigation-item:hover{
+    color: #050606;
+ }
+
+.main{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form__input{
+    width: 100%;
+}
+
+.form__label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__textarea{
+    width: inherit;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    background-color:#f3f6f6;
+    margin-bottom: 10px;
+}
+.form__submit{
+    border: none;
+    border-radius: 10px;
+    background-color: #4b7d62;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 30px;
+    color: white;
+    cursor: pointer;
+}
+.form__submit:hover{
+    background-color:#7aa900;
+}
+.entry{
+    margin-top: 50px;
+}
+.entry__title{
+    display: inline;
+    font-size: 18px;
+}
+.entry__date{
+    color: #7aa980;
+}
+.entry__content{
+    font-size: 16px;
+    line-height: 150%;
+}
+.footer{
+    background-color: #4b7d62;
+    padding: 40px 0;
+    margin-top: 50px;
+    border-top: 4px  solid grey;
+    color: rgb(188, 202, 213);
+    font-size: 18px;
+   
+}
+.footer__content{
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.footer .left{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .right{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+
+}
+.footer__column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.footer__item{
+    margin-bottom: 10px;
+    color: inherit;
+    text-decoration: none;
+}
+.footer__item:hover{
+    color: #050606;
+}
